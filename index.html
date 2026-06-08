@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Angkasa Kuliner Makmur | Cita Rasa Kuliner Nusantara Premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #fefcf9; }
+        .font-luxury { font-family: 'Marcellus', serif; }
+        
+        .hero-culinary {
+            background: linear-gradient(rgba(26, 18, 16, 0.75), rgba(41, 12, 12, 0.95)), 
+                        url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .crimson-accent {
+            background-color: #7f1d1d;
+        }
+
+        .text-gold {
+            color: #fbbf24;
+        }
+
+        .border-gold {
+            border-color: #fbbf24;
+        }
+
+        .culinary-card {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .culinary-card:hover {
+            transform: translateY(-6px);
+            border-color: #fbbf24;
+            box-shadow: 0 20px 25px -5px rgba(127, 29, 29, 0.05);
+        }
+    </style>
+</head>
+<body class="text-stone-800 antialiased">
+
+    <nav class="fixed w-full z-50 bg-white/95 border-b border-stone-100 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-[#7f1d1d] rounded-full flex items-center justify-center shadow-lg border border-gold">
+                    <span class="text-gold font-luxury text-xl font-bold">A</span>
+                </div>
+                <div class="leading-none">
+                    <span class="text-xl font-luxury font-bold tracking-tight text-stone-900 block uppercase">ANGKASA</span>
+                    <span class="text-[9px] uppercase tracking-[0.3em] font-bold text-[#7f1d1d]">Kuliner Makmur</span>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-10 text-[11px] font-bold uppercase tracking-widest text-stone-500">
+                <a href="#home" class="hover:text-stone-900 transition">Beranda</a>
+                <a href="#solutions" class="hover:text-stone-900 transition">Divisi Kuliner</a>
+                <a href="#about" class="hover:text-stone-900 transition">Kualitas</a>
+                <a href="#contact" class="hover:text-stone-900 transition">Kemitraan</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-culinary h-screen flex items-center px-6 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto w-full relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-amber-200 text-[10px] font-bold mb-8 uppercase tracking-widest">
+                    <i class="fas fa-certificate"></i> Verified Culinary Entity • International Food Standards
+                </div>
+                <h1 class="text-5xl md:text-7xl font-luxury font-bold text-white mb-8 leading-[1.1] tracking-tight">
+                    Mahakarya Rasa, <br><span class="text-gold italic font-normal">Kelezatan yang Makmur.</span>
+                </h1>
+                <p class="text-lg text-stone-300 mb-12 leading-relaxed max-w-xl font-light">
+                    CV Angkasa Kuliner Makmur memadukan tradisi cita rasa Nusantara yang kaya dengan pengolahan pangan modern berstandar tinggi untuk menghasilkan sajian kuliner premium yang higienis, lezat, dan terpercaya.
+                </p>
+                <div class="flex flex-col md:flex-row gap-6">
+                    <a href="#solutions" class="bg-[#7f1d1d] text-white border border-gold px-10 py-4 font-bold uppercase text-[11px] tracking-widest hover:bg-white hover:text-slate-900 transition-all text-center rounded shadow-xl">
+                        Lihat Produk & Jasa
+                    </a>
+                    <a href="#contact" class="border border-stone-400 text-white px-10 py-4 font-bold uppercase text-[11px] tracking-widest hover:bg-white hover:text-stone-900 transition-all text-center rounded">
+                        Hubungi Kami
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="solutions" class="py-32 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
+                <div class="max-w-xl">
+                    <h2 class="text-3xl md:text-5xl font-luxury font-bold text-stone-900 mb-6 uppercase tracking-tight">Ekosistem Kuliner Terpadu</h2>
+                    <p class="text-stone-500 leading-relaxed font-light border-l-2 border-[#7f1d1d] pl-8 italic">"Kami berkomitmen mempertahankan keaslian racikan bumbu khas tanah air dan mengawasi setiap rantai produksi pangan dengan pengujian ketat."</p>
+                </div>
+                <div class="text-stone-200 font-luxury text-7xl font-bold tracking-widest hidden lg:block">MAKMUR</div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-10 bg-[#fefcf9] border border-stone-100 rounded-3xl culinary-card group">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-[#7f1d1d] transition-colors">
+                        <i class="fas fa-utensils text-2xl text-stone-600 group-hover:text-gold"></i>
+                    </div>
+                    <h4 class="text-xl font-luxury font-bold mb-4 text-stone-900 uppercase tracking-tight">Premium Food Production</h4>
+                    <p class="text-stone-500 text-sm leading-relaxed font-light">Manufaktur produk pangan dan bahan masakan setengah jadi berkualitas tinggi yang diracik dari bahan-bahan alami segar pilihan.</p>
+                </div>
+                <div class="p-10 bg-[#fefcf9] border border-stone-100 rounded-3xl culinary-card group">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-[#7f1d1d] transition-colors">
+                        <i class="fas fa-bowl-food text-2xl text-stone-600 group-hover:text-gold"></i>
+                    </div>
+                    <h4 class="text-xl font-luxury font-bold mb-4 text-stone-900 uppercase tracking-tight">Corporate Catering</h4>
+                    <p class="text-stone-500 text-sm leading-relaxed font-light">Penyediaan layanan manajemen katering institusi, pabrik, maupun acara besar dengan sistem penyajian berkontrol sanitasi tinggi.</p>
+                </div>
+                <div class="p-10 bg-[#fefcf9] border border-stone-100 rounded-3xl culinary-card group">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-[#7f1d1d] transition-colors">
+                        <i class="fas fa-truck-ramp-box text-2xl text-stone-600 group-hover:text-gold"></i>
+                    </div>
+                    <h4 class="text-xl font-luxury font-bold mb-4 text-stone-900 uppercase tracking-tight">B2B Food Supply</h4>
+                    <p class="text-stone-500 text-sm leading-relaxed font-light">Kemitraan rantai pasok pasokan komoditas bahan pangan harian untuk sektor perhotelan, restoran, dan jaringan retail modern.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-32 px-6 bg-[#290c0c] text-white overflow-hidden relative">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-24 relative z-10">
+            <div class="md:w-1/2">
+                <h3 class="text-4xl font-luxury font-bold text-white mb-8 uppercase tracking-widest">Komitmen Mutu <br>Tanpa <span class="text-gold italic font-normal">Kompromi</span></h3>
+                <p class="text-stone-300 mb-10 text-lg font-light leading-relaxed">Sebagai entitas bisnis kuliner legal dan tepercaya di Indonesia, CV Angkasa Kuliner Makmur memastikan setiap tahap operasional dapur dan logistik mematuhi pedoman keamanan pangan serta memenuhi kepatuhan hukum administrasi yang transparan.</p>
+                
+                <div class="space-y-6 text-xs tracking-wider uppercase font-semibold font-mono">
+                    <div class="flex items-center gap-4">
+                        <i class="fas fa-check-circle text-gold text-lg"></i>
+                        <span class="text-stone-200">Kepatuhan Regulasi Higienitas & Sanitasi Nasional</span>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i class="fas fa-shield-halved text-gold text-lg"></i>
+                        <span class="text-stone-200">Standar Pengendalian Mutu Pangan (Quality Control) Ketat</span>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 w-full">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop" alt="Premium Modern Culinary Production Kitchen" class="rounded-3xl shadow-2xl grayscale hover:grayscale-0 transition duration-1000">
+                    <div class="absolute -bottom-8 -right-8 bg-[#7f1d1d] border border-gold p-8 hidden md:block rounded-2xl shadow-xl">
+                        <i class="fas fa-award text-4xl text-gold"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-white py-32 px-6 border-t border-stone-100">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-6xl font-luxury font-bold text-slate-900 mb-12 uppercase tracking-tight">Hubungi Pusat Komunikasi</h2>
+            <p class="text-stone-500 mb-16 text-lg font-light">Kami menyambut baik korespondensi resmi perusahaan, diskusi proyek pengadaan katering massal, keagenan distribusi produk makanan, maupun kebutuhan validasi administratif lainnya.</p>
+            
+            <div class="grid md:grid-cols-2 gap-8 text-left mb-20">
+                <div class="p-10 bg-[#fefcf9] border border-stone-200 rounded-2xl flex flex-col justify-center">
+                    <p class="text-[#7f1d1d] text-[10px] uppercase tracking-widest mb-4 font-bold">Official Corporate Identity</p>
+                    <p class="text-stone-800 font-luxury text-lg font-bold tracking-wide uppercase leading-relaxed">CV ANGKASA KULINER MAKMUR</p>
+                    <p class="text-xs text-stone-400 mt-1">Indonesia</p>
+                </div>
+                <div class="p-10 border border-stone-200 rounded-2xl bg-[#fefcf9] flex flex-col justify-center">
+                    <p class="text-[#7f1d1d] text-[10px] uppercase tracking-widest mb-4 font-bold">Corporate Communications</p>
+                    <p class="text-stone-900 font-bold text-md tracking-widest uppercase">corporate@angkasakuliner.co.id</p>
+                    <p class="text-xs text-stone-400 mt-2">Waktu Operasional: Senin - Jumat (09:00 - 17:00 WIB)</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center pt-20 border-t border-stone-100 gap-10">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 bg-slate-900 flex items-center justify-center rounded-full border border-gold">
+                        <span class="text-gold text-xs font-luxury">A</span>
+                    </div>
+                    <span class="text-xs font-bold tracking-[0.5em] uppercase text-slate-900 leading-none">CV Angkasa Kuliner Makmur</span>
+                </div>
+                <p class="text-[9px] text-stone-400 uppercase tracking-[0.5em] font-bold">
+                    &copy; 2026 CV Angkasa Kuliner Makmur. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
